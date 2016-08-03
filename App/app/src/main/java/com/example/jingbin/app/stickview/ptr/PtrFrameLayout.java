@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.dzy.cancerprevention_anticancer.activity.R;
+import com.example.jingbin.app.R;
 
 
 /**

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.jingbin.app.stickview.PlaceHoderHeaderLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/placehoder_goods_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_margin">
+
+    <ListView
+        android:id="@+id/lv_goods_detail_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_margin"
+        android:divider="#e0e0e0"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</com.example.jingbin.app.stickview.PlaceHoderHeaderLayout>

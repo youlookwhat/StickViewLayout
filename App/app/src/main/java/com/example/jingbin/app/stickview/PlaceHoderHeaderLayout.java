@@ -12,11 +12,11 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
 
-import com.dzy.cancerprevention_anticancer.activity.R;
+import com.example.jingbin.app.R;
 
 
 /**
- * Created by sj on 15/11/22.
+ * Created by jingbin on 16/08/03.
  */
 public class PlaceHoderHeaderLayout extends FrameLayout {
 

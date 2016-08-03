@@ -1,4 +1,4 @@
-package com.example.jingbin.app.stickview.ptr;
+package com.example.jingbin.app.stickview.view;
 
 
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.view.View;
 
 public class NoScrollViewPager extends ViewPager {
 
-//    private boolean mNoScroll = false;
-    private boolean mNoScroll = true;
+    private boolean mNoScroll = false;
+//    private boolean mNoScroll = true;
     private View mHeaderView;
 
     public NoScrollViewPager(Context context, AttributeSet attrs) {

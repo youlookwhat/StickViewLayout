@@ -12,7 +12,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.dzy.cancerprevention_anticancer.activity.R;
+import com.example.jingbin.app.R;
 
 import java.util.Date;
 

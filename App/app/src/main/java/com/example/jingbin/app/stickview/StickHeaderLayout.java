@@ -14,7 +14,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 
-import com.dzy.cancerprevention_anticancer.activity.R;
+import com.example.jingbin.app.R;
 
 import java.util.ArrayList;
 
