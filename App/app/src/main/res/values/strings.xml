@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StickView</string>
+    <string name="app_name">StickViewLayout</string>
 
     <!--商品详情 上拉下拉-->
     <string name="cube_ptr_pull_down">下拉刷新...</string>
