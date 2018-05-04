@@ -41,7 +41,7 @@
                 <TextView
                     android:id="@+id/tv_refresh_data"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="200dp"
                     android:background="#0f0"
                     android:gravity="center"
                     android:text="固定view 的上部分"
