@@ -3,3 +3,5 @@
 
 ## 示例图
 ![示例图](https://github.com/youlookwhat/StickViewLayout/blob/master/sample.gif?raw=true)
+
+> 参考：https://github.com/w446108264/StickyHeaderViewPager
