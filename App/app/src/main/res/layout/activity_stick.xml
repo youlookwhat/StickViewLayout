@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.jingbin.app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.jingbin.app.stick.ScrollableLayout
+            android:id="@+id/sl_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--the frist childview will follow the scrollview scroll.-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#345"
+                android:gravity="center"
+                android:text="header"
+                android:textColor="#fff" />
+
+            <!--the second childview will be a navigator.
+            it will be sticking on the top when ItemView scrolls,
+            it's not necessary to add if you don't want-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#235"
+                android:gravity="center"
+                android:text="navigationbar"
+                android:textColor="#fff" />
+
+            <!--ScrollView support ViewPager, RecyclerView, ScrollView, ListView, WebView-->
+            <TextView
+                android:text="@string/app_name"
+                android:id="@+id/vp_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f1f1f1" />
+
+        </com.example.jingbin.app.stick.ScrollableLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

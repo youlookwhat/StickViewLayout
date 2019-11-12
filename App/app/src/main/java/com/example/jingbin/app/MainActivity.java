@@ -20,7 +20,6 @@ import com.example.jingbin.app.childpager.GoodsDetailWebListView;
 import com.example.jingbin.app.stickview.PlaceHoderHeaderLayout;
 import com.example.jingbin.app.stickview.StickHeaderLayout;
 import com.example.jingbin.app.stickview.StickHeaderViewPagerManager;
-import com.example.jingbin.app.stickview.ptr.PtrClassicFrameLayout;
 import com.example.jingbin.app.stickview.ptr.PtrDefaultHandler;
 import com.example.jingbin.app.stickview.ptr.PtrFrameLayout;
 import com.example.jingbin.app.stickview.ptr.PtrHandler;
@@ -185,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
      * 初始化刷新控件
      */
     private void initStickHeaderInfo(StickHeaderLayout shl_root) {
-        final PtrClassicFrameLayout rotate_header_list_view_frame = (PtrClassicFrameLayout) findViewById(R.id.rotate_header_list_view_frame);
+        final PtrFrameLayout rotate_header_list_view_frame = (PtrFrameLayout) findViewById(R.id.rotate_header_list_view_frame);
         rotate_header_list_view_frame.setEnabledNextPtrAtOnce(true);
         rotate_header_list_view_frame.setPtrHandler(new PtrHandler() {
             @Override
